@@ -2,7 +2,7 @@
 	"name": "@sugar/cli",
 	"version": "1.0.0",
 	"bin": {
-		"cli": "bin/cli.js"
+		"sugar": "bin/cli.js"
 	},
 	"scripts": {
 		"build": "rollup -c rollup.config.js",

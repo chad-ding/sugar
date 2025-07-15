@@ -11,16 +11,17 @@ program.version(pkg.version)
 program.usage('<command>')
 
 program
-	.command('create')
+	.command('init')
 	.description('创建项目')
-	.alias('c')
+	.alias('i')
 	.action(() => {
 		createProject()
 	})
 
 program
-	.command('cp')
+	.command('create')
 	.description('创建页面')
+	.alias('c')
 	.action(() => {
 		createPage()
 	})
