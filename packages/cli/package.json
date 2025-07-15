@@ -1,0 +1,33 @@
+{
+	"name": "@sugar/cli",
+	"version": "1.0.0",
+	"bin": {
+		"cli": "bin/cli.js"
+	},
+	"scripts": {
+		"build": "rollup -c rollup.config.js",
+		"demo": "cd template && npm run dev"
+	},
+	"author": "Chad.Ding",
+	"files": [
+		"bin",
+		"template",
+		"!template/node_modules",
+		"!template/dist",
+		"package.json"
+	],
+	"license": "MIT",
+	"dependencies": {
+		"@sugar/core": "file:../core",
+		"chalk": "^4.1.2",
+		"commander": "^8.3.0",
+		"fs-extra": "^10.0.0",
+		"inquirer": "^6.5.2"
+	},
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^28.0.6",
+		"@rollup/plugin-json": "^6.1.0",
+		"@rollup/plugin-node-resolve": "^16.0.1",
+		"rollup": "^4.45.1"
+	}
+}

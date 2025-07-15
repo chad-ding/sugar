@@ -1,0 +1,19 @@
+{
+	"files.eol": "\n",
+	"files.insertFinalNewline": true,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit",
+		"source.fixAll.stylelint": "explicit"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.configPath": "",
+	"prettier.disableLanguages": ["javascript", "javascriptreact", "css", "scss"],
+	"javascript.format.enable": false,
+	"css.validate": false,
+	"scss.validate": false,
+	"eslint.nodePath": "",
+	"eslint.options": {
+		"configFile": ""
+	}
+}

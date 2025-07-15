@@ -1,0 +1,10 @@
+{
+	"name": "@sugar/core",
+	"version": "1.0.0",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "rollup -c rollup.config.js"
+	},
+	"license": "MIT",
+	"author": "Chad.Ding"
+}

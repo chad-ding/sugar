@@ -1,0 +1,13 @@
+{
+	"scripts": {
+		"build": "lerna run build",
+		"demo": "lerna run --scope @sugar/cli demo"
+	},
+	"dependencies": {
+		"lerna": "^8.2.3"
+	},
+	"devDependencies": {
+		"rollup": "^4.45.1",
+		"prettier": "^3.6.2"
+	}
+}
