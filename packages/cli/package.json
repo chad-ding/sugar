@@ -6,7 +6,7 @@
 	},
 	"scripts": {
 		"build": "rollup -c rollup.config.js",
-		"demo": "cd template && npm run dev"
+		"mock": "cd template && npm run dev"
 	},
 	"author": "Chad.Ding",
 	"files": [
@@ -18,7 +18,7 @@
 	],
 	"license": "MIT",
 	"dependencies": {
-		"@sugar/core": "file:../core",
+		"@sugar/core": "file:../core/src/index.js",
 		"chalk": "^4.1.2",
 		"commander": "^8.3.0",
 		"fs-extra": "^10.0.0",

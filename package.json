@@ -1,7 +1,7 @@
 {
 	"scripts": {
 		"build": "lerna run build",
-		"demo": "lerna run --scope @sugar/cli demo"
+		"mock": "lerna run --scope @sugar/cli mock"
 	},
 	"dependencies": {
 		"lerna": "^8.2.3"
