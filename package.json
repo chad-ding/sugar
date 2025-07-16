@@ -4,7 +4,7 @@
 		"mock": "lerna run --scope @sugar/cli mock",
 		"version": "lerna version --no-private",
 		"release": "lerna publish --no-private",
-		"beta": "lerna publish --dist-tag beta --preid beta --no-private"
+		"beta": "lerna publish --dist-tag beta --no-private"
 	},
 	"dependencies": {
 		"lerna": "^8.2.3"
