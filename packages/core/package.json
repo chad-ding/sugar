@@ -1,6 +1,6 @@
 {
 	"name": "@sugar/core",
-	"version": "1.0.1-beta.0",
+	"version": "1.0.1-beta.8+664d10f",
 	"main": "dist/index.js",
 	"files": [
 		"package.json",
@@ -11,5 +11,6 @@
 		"build": "rollup -c rollup.config.js"
 	},
 	"license": "MIT",
-	"author": "Chad.Ding"
+	"author": "Chad.Ding",
+	"gitHead": "664d10fb6586c760494e377166f9161d5683abd5"
 }
