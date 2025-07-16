@@ -12,9 +12,9 @@
 	"files": [
 		"bin",
 		"template",
+		"package.json",
 		"!template/node_modules",
-		"!template/dist",
-		"package.json"
+		"!template/dist"
 	],
 	"license": "MIT",
 	"dependencies": {

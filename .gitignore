@@ -2,3 +2,5 @@ node_modules/
 dist
 bin
 package-lock.json
+.nx
+lerna-debug.log

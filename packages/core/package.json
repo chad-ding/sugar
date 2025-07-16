@@ -2,6 +2,11 @@
 	"name": "@sugar/core",
 	"version": "1.0.0",
 	"main": "dist/index.js",
+	"files": [
+		"package.json",
+		"README.md",
+		"dist"
+	],
 	"scripts": {
 		"build": "rollup -c rollup.config.js"
 	},
