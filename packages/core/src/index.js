@@ -14,6 +14,9 @@ export default class VNode extends Event {
 	$util = window.$util
 	$query = util.query2Obj(location.search) // 链接中提取的参数
 
+	// 显示类型
+	__display__ = undefined
+
 	constructor(html, root, options = {}) {
 		super()
 
@@ -135,10 +138,12 @@ export default class VNode extends Event {
 	}
 
 	show() {
-		this.$ele.style.display = ''
+		this.$ele.style.display = this.__display__ ?? ''
+		this.__display__ = undefined
 	}
 
 	hide() {
+		this.__display__ = this.$ele.style.display
 		this.$ele.style.display = 'none'
 	}
 
