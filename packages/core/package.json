@@ -1,6 +1,6 @@
 {
 	"name": "@sugar/core",
-	"version": "1.0.1-beta.8+664d10f",
+	"version": "0.0.1-beta.8+664d10f",
 	"main": "dist/index.js",
 	"files": [
 		"package.json",
